@@ -1,26 +1,4 @@
-﻿//using tech_store_api.Domain.Entities;
-//using tech_store_api.Domain.Interfaces;
-//using tech_store_api.Infrastructure.Data;
-
-//namespace tech_store_api.Infrastructure.Repositories
-//{
-//    public class ProdutoRepository : IProdutoRepository
-//    {
-//        private readonly AppDbContext _context;
-
-//        public ProdutoRepository(AppDbContext context)
-//        {
-//            _context = context;
-//        }
-
-//        public IEnumerable<Produto> ListarTodos()
-//        {
-//            return _context.Produto.ToList();
-//        }
-//    }
-//}
-
-using tech_store_api.Domain.Entities;
+﻿using tech_store_api.Domain.Entities;
 using tech_store_api.Domain.Interfaces;
 using tech_store_api.Infrastructure.Data;
 
