@@ -44,5 +44,11 @@ namespace tech_store_api.Infrastructure.Repositories
         {
             _context.SaveChanges();
         }
+
+        public void Add(Produto produto)
+        {
+            _context.Produto.Add(produto);
+            _context.SaveChanges();
+        }
     }
 }
